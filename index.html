@@ -40,7 +40,7 @@
         <script src="data/Urbanitzacions_2.js"></script>
         <script>
         var map = L.map('map', {
-            zoomControl:false, maxZoom:18, minZoom:10
+            zoomControl:false, attributionControl: false, maxZoom:18, minZoom:10
         }).fitBounds([[41.78004837145068,2.1761573237540115],[41.858480885341585,2.3710277980488157]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
